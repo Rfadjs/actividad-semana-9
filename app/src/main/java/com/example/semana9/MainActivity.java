@@ -288,7 +288,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Apaga todo al salir/minimizar
+    // Apag todo al salir/minimizar
     @Override protected void onPause()  { super.onPause();  stopVideo(); stopMusic(); stopAnim(); }
     @Override protected void onStop()   { super.onStop();   stopVideo(); stopMusic(); stopAnim(); }
     @Override protected void onDestroy(){ super.onDestroy();stopVideo(); stopMusic(); stopAnim(); }
